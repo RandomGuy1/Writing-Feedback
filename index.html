@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quick Extract: Writing Feedback</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="roster-pane">
+      <h2>Student Roster</h2>
+      <select id="class-select">
+        <option value="">Select a class</option>
+        <option value="section1">Section 1</option>
+        <option value="section3">Section 3</option>
+        <option value="section5">Section 5</option>
+        <option value="section7">Section 7</option>
+      </select>
+      <textarea id="roster-input" placeholder="Paste student roster here..."></textarea>
+      <div class="roster-controls">
+        <button id="roster-submit-btn">Submit</button>
+        <button id="save-roster-btn">Save to Server</button>
+        <button id="roster-clear-btn">Clear</button>
+      </div>
+      <button id="no-student-btn" class="no-student-btn">No Student</button>
+      <div id="student-list">
+        <!-- Sample student checkboxes -->
+        <label><input type="radio" name="student" value="Nguyen Van An">Nguyen Van An</label><br>
+        <label><input type="radio" name="student" value="Pham Thi Binh">Pham Thi Binh</label><br>
+        <label><input type="radio" name="student" value="John Van Doe">John Van Doe</label><br>
+      </div>
+    </div>
+
+    <div class="editor-pane">
+      <h1>Quick Extract</h1>
+      <div class="controls">
+        <button id="copy-btn">Copy to Clipboard</button>
+        <button id="clear-btn">Clear All</button>
+      </div>
+      <div class="output-container">
+        <textarea 
+          id="result" 
+          placeholder="Selected feedback will appear here..."
+          readonly
+        ></textarea>
+      </div>
+    </div>
+    
+    <div class="feedback-pane">
+      <select id="profile-select">
+        <option value="demo">Demo</option>
+        <option value="lit-review-rough-draft">Lit Review Rough Draft</option>
+        <option value="lit-review-final-draft">Literature Review Final Draft</option>
+      </select>
+      <!-- Feedback items will be populated here dynamically -->
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

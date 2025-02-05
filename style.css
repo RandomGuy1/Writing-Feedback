@@ -1,0 +1,319 @@
+:root {
+  --primary: #2c3e50;
+  --secondary: #3498db;
+  --light: #ecf0f1;
+  --spacing: 0.5rem; /* Reduced spacing for compactness */
+  --positive-bg: #e8f5e9;
+  --positive-border: #81c784;
+  --negative-bg: #ffebee;
+  --negative-border: #e57373;
+  --excerpt-color: #666;
+  --font-family: 'Segoe UI', system-ui;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-family);
+  line-height: 1.4; /* Reduced line height for compactness */
+  background: #f8f9fa;
+}
+
+.container {
+  display: flex;
+  gap: var(--spacing);
+  padding: var(--spacing);
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1, h2 {
+  color: var(--primary);
+  margin-bottom: 0.5rem; /* Reduced margin for compactness */
+}
+
+.roster-pane {
+  flex: 0.5;
+  min-width: 200px;
+  background: white;
+  padding: var(--spacing);
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.roster-pane textarea {
+  width: 100%;
+  height: 100px;
+  padding: var(--spacing);
+  border: 1px solid var(--light);
+  border-radius: 4px;
+  resize: none;
+  margin-bottom: var(--spacing);
+  font-family: var(--font-family);
+  line-height: 1.4;
+}
+
+.roster-controls {
+  display: flex;
+  gap: var(--spacing);
+  margin-bottom: var(--spacing);
+}
+
+#student-list {
+  max-height: 720px; /* Increased height by 20% for more visibility */
+  overflow-y: auto;
+  padding: var(--spacing);
+  border: 1px solid var(--light);
+  border-radius: 4px;
+  font-size: 12px; /* Smaller font size */
+  line-height: 1.2; /* Smaller line height */
+}
+
+.no-student-btn {
+  background: #2ecc71;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 0.25rem 0.5rem;
+  cursor: pointer;
+  transition: background 0.2s;
+  margin-bottom: var(--spacing);
+  width: 100%; /* Full width of the column */
+}
+
+.no-student-btn:hover {
+  background: #27ae60;
+}
+
+.editor-pane {
+  flex: 1;
+  min-width: 300px;
+  position: sticky;
+  top: var(--spacing);
+  align-self: flex-start;
+}
+
+.feedback-pane {
+  flex: 1;
+  min-width: 300px;
+  position: relative;
+}
+
+.controls {
+  display: flex;
+  gap: 0.25rem; /* Reduced gap for compactness */
+  margin-bottom: 0.5rem; /* Reduced margin for compactness */
+}
+
+button {
+  padding: 0.25rem 0.5rem; /* Reduced padding for compactness */
+  background: var(--secondary);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background: #2980b9;
+}
+
+#clear-btn {
+  background: #e74c3c;
+}
+
+#clear-btn:hover {
+  background: #c0392b;
+}
+
+.output-container {
+  height: calc(100vh - 140px); /* Adjusted height for compactness */
+  position: relative;
+}
+
+#result {
+  width: 100%;
+  height: 100%;
+  padding: 0.5rem; /* Reduced padding for compactness */
+  border: 2px solid var(--secondary);
+  border-radius: 8px;
+  resize: none;
+  background: white;
+  font-size: 13px; /* Reduced font size for compactness */
+  line-height: 1.4; /* Reduced line height for compactness */
+  font-family: var(--font-family);
+}
+
+.feedback-group {
+  margin-bottom: 1rem; /* Reduced margin for compactness */
+  background: white;
+  padding: 0.5rem; /* Reduced padding for compactness */
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1); /* Reduced shadow for compactness */
+  position: relative;
+}
+
+fieldset {
+  border: 1px solid var(--light);
+  border-radius: 6px;
+  padding: 0.5rem; /* Reduced padding for compactness */
+  position: relative;
+}
+
+legend {
+  font-weight: 600;
+  color: var(--primary);
+  padding: 0 0.25rem; /* Reduced padding for compactness */
+}
+
+.positive {
+  background: var(--positive-bg);
+  border-left: 4px solid var(--positive-border);
+  padding: 0.25rem; /* Reduced padding for compactness */
+  margin-bottom: 0.25rem; /* Reduced margin for compactness */
+  border-radius: 4px;
+  position: relative;
+}
+
+.negative {
+  background: var(--negative-bg);
+  border-left: 4px solid var(--negative-border);
+  padding: 0.25rem; /* Reduced padding for compactness */
+  border-radius: 4px;
+  position: relative;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0.01rem 0; /* Further reduced margin for compactness */
+  padding: 0.05rem; /* Further reduced padding for compactness */
+  border-radius: 4px;
+  transition: background 0.2s;
+  cursor: pointer;
+  position: relative;
+  font-size: 0.9em; /* Reduced font size for feedback labels */
+}
+
+label:hover {
+  background: var(--light);
+}
+
+input[type="checkbox"], input[type="radio"] {
+  margin-right: 0.5rem; /* Reduced margin for compactness */
+  height: 1.2em; /* Increased height by 20% */
+}
+
+.excerpt {
+  display: block;
+  color: var(--excerpt-color);
+  font-size: 0.8em; /* Reduced font size for compactness */
+  margin-top: 0.25rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 180px; /* Reduced width for compactness */
+}
+
+.edit-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  margin-left: 0.25rem; /* Reduced margin for compactness */
+  color: var(--primary);
+  font-size: 1em; /* Reduced font size for compactness */
+}
+
+.edit-btn:hover {
+  color: var(--secondary);
+}
+
+.add-btn {
+  position: absolute;
+  border: none;
+  border-radius: 50%;
+  width: 25px; /* Reduced size for compactness */
+  height: 25px; /* Reduced size for compactness */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.add-btn.positive {
+  background: var(--positive-border);
+  top: 0;
+  right: -35px; /* Adjusted position for compactness */
+}
+
+.add-btn.positive:hover {
+  background: #66bb6a;
+}
+
+.add-btn.negative {
+  background: var(--negative-border);
+  bottom: 0;
+  right: -35px; /* Adjusted position for compactness */
+}
+
+.add-btn.negative:hover {
+  background: #ef5350;
+}
+
+.inline-editor {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem; /* Reduced gap for compactness */
+  margin-top: 0.25rem; /* Reduced margin for compactness */
+  background: var(--light);
+  padding: 0.25rem; /* Reduced padding for compactness */
+  border-radius: 4px;
+}
+
+.inline-editor input, .inline-editor textarea {
+  width: 100%;
+  padding: 0.25rem; /* Reduced padding for compactness */
+  border: 1px solid var(--light);
+  border-radius: 4px;
+  max-width: calc(100% - 0.5rem); /* Adjusted width for compactness */
+}
+
+.inline-editor button {
+  align-self: flex-end;
+  margin-top: 0.25rem; /* Reduced margin for compactness */
+}
+
+.add-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem; /* Reduced gap for compactness */
+  margin-top: 0.25rem; /* Reduced margin for compactness */
+  background: var(--light);
+  padding: 0.25rem; /* Reduced padding for compactness */
+  border-radius: 4px;
+}
+
+.add-container input {
+  width: 100%;
+  padding: 0.25rem; /* Reduced padding for compactness */
+  border: 1px solid var(--light);
+  border-radius: 4px;
+  max-width: calc(100% - 0.5rem); /* Adjusted width for compactness */
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+  
+  .output-container {
+    height: 350px; /* Adjusted height for compactness */
+  }
+}

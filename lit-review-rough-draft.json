@@ -1,0 +1,102 @@
+{
+  "Phantom Reference": {
+    "positive": [],
+    "negative": [
+      {
+        "content": "Please have a look at a sample Reference list with the authors names at the beginning, as well as the lesson on Grey Literature.",
+        "label": "Reference list guidance",
+        "excerpt": "Please have a look at a sample Reference list..."
+      }
+    ]
+  },
+  "Academic Integrity": {
+    "positive": [],
+    "negative": [
+      {
+        "content": "AI writing detected. Large copy/pastes: 37 times into the document. This is not your own writing. Please drop me a message in my inbox and schedule an Academic Integrity meeting with me ASAP.",
+        "label": "AI writing detected",
+        "excerpt": "AI writing detected. Large copy/pastes..."
+      },
+      {
+        "content": "Academic Integrity & AI disclosure (First Page) not given & not signed.",
+        "label": "AI disclosure missing",
+        "excerpt": "Academic Integrity & AI disclosure not given..."
+      },
+      {
+        "content": "Interesting case. High Gen AI use detected, however, after close inspection I have found that you have indeed done the majority of the work, however you have not acknowledged using Gen AI nor have you signed the disclosure.",
+        "label": "High Gen AI use",
+        "excerpt": "Interesting case. High Gen AI use detected..."
+      },
+      {
+        "content": "Extremely High ChatGPT use detected. You have to write every single word in the provided Google Doc link. Large portions of texts found RE-TYPED into the doc from a ChatGPT source.",
+        "label": "High ChatGPT use",
+        "excerpt": "Extremely High ChatGPT use detected..."
+      },
+      {
+        "content": "Serious Plagiarism detected in Turnitin Originality Report.",
+        "label": "Serious Plagiarism",
+        "excerpt": "Serious Plagiarism detected in Turnitin..."
+      },
+      {
+        "content": "Considerable Patchwork Plagiarism found. Please learn about it here.",
+        "label": "Patchwork Plagiarism",
+        "excerpt": "Considerable Patchwork Plagiarism found..."
+      }
+    ]
+  },
+  "APA Formatting": {
+    "positive": [],
+    "negative": [
+      {
+        "content": "APA 7 indentation issues in Reference List. Start the first line of each reference at the left margin; indent each subsequent line five spaces (a hanging indent).",
+        "label": "APA indentation issues",
+        "excerpt": "APA 7 indentation issues in Reference List..."
+      },
+      {
+        "content": "Incorrect Heading and sub-heading format: APA does not use roman numerals (I. II. III. IV. or a. b. c.).",
+        "label": "Incorrect APA headings",
+        "excerpt": "Incorrect Heading and sub-heading format..."
+      },
+      {
+        "content": "Wrong Vietnamese APA citation. Please look into my Lesson 18 Vietnamese Names slides.",
+        "label": "Vietnamese APA citation",
+        "excerpt": "Wrong Vietnamese APA citation..."
+      }
+    ]
+  },
+  "Writing Quality": {
+    "positive": [],
+    "negative": [
+      {
+        "content": "The real writing quality of your draft is around 7-7.5/10. Here it seems to be higher because the main requirement for Rough Draft is timely submission, and having all the components ready.",
+        "label": "Writing quality assessment",
+        "excerpt": "The real writing quality of your draft is around 7-7.5/10..."
+      },
+      {
+        "content": "It is not an IELTS Essay where the prompt directly asks you for your opinion. Try to be more academic and avoid using personal pronouns.",
+        "label": "Avoid personal pronouns",
+        "excerpt": "It is not an IELTS Essay where the prompt directly asks you..."
+      },
+      {
+        "content": "Please provide consistent formatting throughout your essay - No indentation in Intro, but Hanging indentation in other paragraphs.",
+        "label": "Inconsistent formatting",
+        "excerpt": "Please provide consistent formatting throughout your essay..."
+      }
+    ]
+  },
+  "Submission and Process": {
+    "positive": [],
+    "negative": [
+      {
+        "content": "Updated score for late Submission as per the Syllabus.",
+        "label": "Late submission penalty",
+        "excerpt": "Updated score for late Submission as per the Syllabus..."
+      },
+      {
+        "content": "The Google Doc revision history does not provide evidence that you wrote this yourself. Unless you can provide additional evidence to prove otherwise, you will receive a zero for the rough and final drafts.",
+        "label": "Lack of process evidence",
+        "excerpt": "The Google Doc revision history does not provide evidence..."
+      }
+    ]
+  }
+}

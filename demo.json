@@ -1,0 +1,50 @@
+{
+  "Category 1": {
+    "positive": [
+      {
+        "content": "Great job on this section!",
+        "label": "Well done",
+        "excerpt": "Great job on this section!"
+      }
+    ],
+    "negative": [
+      {
+        "content": "This section needs improvement.",
+        "label": "Needs improvement",
+        "excerpt": "This section needs improvement."
+      }
+    ]
+  },
+  "Category 2": {
+    "positive": [
+      {
+        "content": "Excellent analysis!",
+        "label": "Excellent",
+        "excerpt": "Excellent analysis!"
+      }
+    ],
+    "negative": [
+      {
+        "content": "Consider revising this part.",
+        "label": "Revise",
+        "excerpt": "Consider revising this part."
+      }
+    ]
+  },
+  "Category 3": {
+    "positive": [
+      {
+        "content": "Well structured argument.",
+        "label": "Well structured",
+        "excerpt": "Well structured argument."
+      }
+    ],
+    "negative": [
+      {
+        "content": "The argument lacks clarity.",
+        "label": "Lacks clarity",
+        "excerpt": "The argument lacks clarity."
+      }
+    ]
+  }
+}

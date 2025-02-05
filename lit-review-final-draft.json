@@ -1,0 +1,196 @@
+{
+  "Overall Feedback": {
+    "positive": [
+      {
+        "content": "Andy: Outstanding work on completing this monumental task! Your dedication and perseverance have truly paid off, and I hope you are thrilled with the final result.\n\nThe primary goal of FoAW was to familiarize you with the intricacies of academic professionals through trying out extended research and writing. While many of us may still not feel like experts, I know that you have developed your skills and are now better prepared for rigorous academic writing in the future.\n\nI look forward to reading your publications in the coming years. ;)\n\nFor feedback,\n(1) read the rubric on Canvas carefully,\n(2) read my comments below regarding the paper as well as the annotations in your Canvas submission. Learn how to see it here https://www.youtube.com/watch?v=0xFui6wsfZ4\n\nI recommend taking some time to reflect on this feedback and to identify some key skills/areas that you need to develop moving forward. Thanks for your efforts this semester!",
+        "label": "Exemplary"
+      },
+      {
+        "content": "Andy: Congratulations on your completion of this monumental task! It must have taken a lot of hard work and perseverance on your part, I hope you are satisfied with the final result.\n\nThe primary goal of FoAW was to familiarize you with the intricacies of academic professionals through trying out extended research and writing. While many of us may still not feel like experts, I know that you have developed your skills and are now better prepared for rigorous academic writing in the future.\n\nI look forward to reading your publications in the coming years. ;)\n\nFor feedback,\n(1) read the rubric on Canvas carefully,\n(2) read my comments below regarding the paper as well as the annotations in your Canvas submission. Learn how to see it here https://www.youtube.com/watch?v=0xFui6wsfZ4\n\nI recommend taking some time to reflect on this feedback and to identify some key skills/areas that you need to develop moving forward. Thanks for your efforts this semester!",
+        "label": "Advanced"
+      },
+      {
+        "content": "Andy: Congratulations on your completion of this monumental task! Your effort and perseverance are commendable, and I hope you are content with the final result.\n\nThe primary goal of FoAW was to familiarize you with the intricacies of academic professionals through trying out extended research and writing. While many of us may still not feel like experts, I know that you have developed your skills and are now better prepared for rigorous academic writing in the future.\n\nI look forward to reading your publications in the coming years. ;)\n\nFor feedback,\n(1) read the rubric on Canvas carefully,\n(2) read my comments below regarding the paper as well as the annotations in your Canvas submission. Learn how to see it here https://www.youtube.com/watch?v=0xFui6wsfZ4\n\nI recommend taking some time to reflect on this feedback and to identify some key skills/areas that you need to develop moving forward. Thanks for your efforts this semester!",
+        "label": "Normal"
+      }
+    ],
+    "negative": [
+      {
+        "content": "The work submitted does not meet the expected standards. It lacks depth, clarity, and coherence. Please review the guidelines and make necessary improvements.",
+        "label": "Not good",
+        "excerpt": "The work submitted does not meet the expected standards..."
+      },
+      {
+        "content": "Plagiarism has been detected in the submitted work. It is crucial to ensure that all sources are properly cited and that the work is original. Please revise and resubmit.",
+        "label": "Plagiarism detected",
+        "excerpt": "Plagiarism has been detected in the submitted work..."
+      }
+    ]
+  },
+  "Introduction & Thesis": {
+    "positive": [
+      {
+        "content": "Amazing Feat! A very effective introduction that engages the audience, provides necessary contextual information, with a clear thesis statement that previews topics. Excellent!",
+        "label": "Excellent introduction",
+        "excerpt": "Amazing Feat! A very effective introduction that engages the audience..."
+      }
+    ],
+    "negative": [
+      {
+        "content": "Context: Missing some contextual information, or the importance of the issue is simplistic. Consider the background knowledge of your audience. What do they need to know before reading the body of your paper?",
+        "label": "Insufficient context",
+        "excerpt": "Context: Missing some contextual information..."
+      },
+      {
+        "content": "Significance: Make sure you have also provided a clear rationale for why it is important to do further research on this topic. Why is your topic important to read about? Find a gap, problem, or need and do research to solve the issue or provide the necessary information.",
+        "label": "Missing significance",
+        "excerpt": "Significance: Make sure you have also provided a clear rationale..."
+      },
+      {
+        "content": "Preview: The thesis is missing an effective preview of the content and lacks detail. Add more detail and specificity to your thesis by rereading your paper and clearly stating the topics that will be focused on in your paper. Effective planning and research before writing can give you a clearer goal before you write the body of your paper.",
+        "label": "Weak thesis preview",
+        "excerpt": "Preview: The thesis is missing an effective preview..."
+      }
+    ]
+  },
+  "Paragraph Structure": {
+    "positive": [
+      {
+        "content": "Amazing Feat! Overall organization of the paper is great with effective headings and subheadings.",
+        "label": "Strong organization",
+        "excerpt": "Amazing Feat! Overall organization of the paper is great..."
+      }
+    ],
+    "negative": [
+      {
+        "content": "UnderDevelopment: A few underdeveloped paragraphs lacking in support. Paragraphs need to be developed more extensively.",
+        "label": "Underdeveloped paragraphs",
+        "excerpt": "UnderDevelopment: A few underdeveloped paragraphs lacking in support..."
+      },
+      {
+        "content": "Cohesive Devices: Cohesive devices are sometimes missing within the paragraph which would have resulted in more clarity. Use a greater variety of cohesive devices within and between paragraphs. See examples here: https://www.eapfoundation.com/writing/cohesion/",
+        "label": "Missing cohesive devices",
+        "excerpt": "Cohesive Devices: Cohesive devices are sometimes missing..."
+      },
+      {
+        "content": "Transitions: Focus on improving transitions between paragraphs and sections of your paper. Give your logic as to why the paper will shift to the next section.",
+        "label": "Weak transitions",
+        "excerpt": "Transitions: Focus on improving transitions..."
+      }
+    ]
+  },
+  "Knowledge Integration": {
+    "positive": [
+      {
+        "content": "Amazing Feat! Your paper superbly demonstrates your breadth of knowledge and research on this topic along with your own masterly explanations, evaluations, and elaborations.",
+        "label": "Strong knowledge integration",
+        "excerpt": "Amazing Feat! Your paper superbly demonstrates your breadth of knowledge..."
+      }
+    ],
+    "negative": [
+      {
+        "content": "Underdeveloped Thoughts: There are a few areas in which discussion or elaboration is limited. Expand on the evidence and research offered in the paragraph, by giving examples, explaining those examples and making connections, comparing, or evaluating. Use your own critical thinking to lead your audience to a more nuanced conclusion and understanding of the topic.",
+        "label": "Underdeveloped thoughts",
+        "excerpt": "Underdeveloped Thoughts: There are a few areas in which discussion..."
+      },
+      {
+        "content": "Evidence needed: Some conclusions or arguments made in the paper are not supported with provided evidence. Ways to improve in this area:\n1) Do more research to support your conclusion.\n2) Use hedging to limit conclusions. It is clear --> It may/might be possible.\n3) Avoid Logical Fallacies: https://michelerosenthal.com/portfolio/logical-fallacies/\n",
+        "label": "Missing evidence",
+        "excerpt": "Evidence needed: Some conclusions or arguments made in the paper..."
+      },
+      {
+        "content": "Evidence needed: It feels as though some extended findings are based on your personal knowledge and experience but without cited information to support them, they are not as strong as they could be. Also, at times, the findings lack a direct connection to the core theme. \n",
+        "label": "Too much Personal knowledge",
+        "excerpt": "Evidence needed: It feels as though some extended findings are based on your personal knowledge..."
+      },
+      {
+        "content": "Wishful thinking - Evidence needed: Large parts of findings feel like streams of consciousness and lack cited information to strengthen or support the claims/analysis being made.\n",
+        "label": "Wishful thinking",
+        "excerpt": "Evidence needed: Large parts of findings feel like streams of consciousness.."
+      },			
+      {
+        "content": "Dependence on 1-2 sources per paragraph: Paragraphs are built around only 1 or 2 sources at times, making synthesis and elaboration very difficult. A couple of options to remedy this:\n1) Do more research and find support from more than one source.\n2) Broaden the scope of the paragraph so that evidence from other sources can be used to support your ideas.",
+        "label": "Limited sources",
+        "excerpt": "Dependence on 1-2 sources per paragraph: Paragraphs are built around..."
+      }
+    ]
+  },
+  "Conclusion": {
+    "positive": [
+      {
+        "content": "Amazing Feat! You have crafted a powerful conclusion that carefully balances old and new ideas for a thought-provoking finish. Awesome closer!",
+        "label": "Strong conclusion",
+        "excerpt": "Amazing Feat! You have crafted a powerful conclusion..."
+      },
+      {
+        "content": "Amazing Feat! A strong and refreshing summary of the analysis and claims made in the paper. Implications and future research add real value to this section. Superb!",
+        "label": "Excellent summary",
+        "excerpt": "Amazing Feat! A strong and refreshing summary..."
+      }
+    ],
+    "negative": [
+      {
+        "content": "Lackluster: The conclusion is brief and is missing key sections. Expand your conclusion section and focus on the following areas as discussed in class:\n1) Thesis\n2) Evaluation\n3) Solutions\n4) Questions / Limitations\n5) Implications\n6) Ending / Closer",
+        "label": "Incomplete conclusion",
+        "excerpt": "Lackluster: The conclusion is brief and is missing key sections..."
+      },
+      {
+        "content": "Stronger Ending recommended: Misses final opportunity to engage the audience. Find a quote or write a powerful statement on your topic that focuses on the importance of the problem or the solution. Call your audience to action or summarize the deeper meaning of your paper in an engaging and concise statement.",
+        "label": "Weak ending",
+        "excerpt": "Stronger Ending recommended: Misses final opportunity to engage..."
+      },
+      {
+        "content": "Specific Impact needed: Impact of research lacks specificity. Look at conclusion sections of other research papers related to your topic for more specific ideas on how your research may make an impact. Avoid writing impacts that can be applied to any generic research paper. \"Expanded knowledge in the field\" or \"filled the research gap\" isn't specific enough. Consider how the audience will react to your research and what the result may be.",
+        "label": "Generic impact",
+        "excerpt": "Specific Impact needed: Impact of research lacks specificity..."
+      }
+    ]
+  },
+  "Language Use": {
+    "positive": [
+      {
+        "content": "Amazing Feat! You have demonstrated a wide range of academic language and a strive for precision and accuracy. Wonderful job!",
+        "label": "Strong language use",
+        "excerpt": "Amazing Feat! You have demonstrated a wide range of academic language..."
+      }
+    ],
+    "negative": [
+      {
+        "content": "Vary your Sentence structure: Some simple sentence structures are overused in paragraphs. Try to improve the complexity of your sentences by using more subordinators (if, whether, until, after, what, even though) or coordinators (and, yet, so, or). Experiment with nominalizing verb phrases and using the passive voice when the agent isn't important.",
+        "label": "Simple sentence structures",
+        "excerpt": "Vary your Sentence structure: Some simple sentence structures are overused..."
+      },
+      {
+        "content": "Better communication is the Goal: Grammar and vocab sometimes impede communication, and some simple sentence structures are overused in paragraphs.",
+        "label": "Communication issues",
+        "excerpt": "Better communication is the Goal: Grammar and vocab sometimes impede..."
+      }
+    ]
+  },
+  "References": {
+    "positive": [
+      {
+        "content": "In-credible! Many of your sources are journal articles and are highly credible. It must have been difficult to find all of these sources, let alone understand the technical and difficult jargon. Nice effort!",
+        "label": "Credible sources",
+        "excerpt": "In-credible! Many of your sources are journal articles..."
+      },
+      {
+        "content": "Beyond the call of duty! You have cited a good range of sources beyond the minimum number required. Well done. As you get more experienced with reading academic sources, this will become less of a consideration, and you will no doubt surprise yourself with the number of sources you have naturally used.",
+        "label": "Extensive sources",
+        "excerpt": "Beyond the call of duty! You have cited a good range of sources..."
+      }
+    ],
+    "negative": [
+      {
+        "content": "Over-reliance on 1-2 sources for an argument: There are a few areas in the paper in which one source is used extensively instead of multiple sources.",
+        "label": "Over-reliance on few sources",
+        "excerpt": "Over-reliance on 1-2 sources for an argument: There are a few areas..."
+      },
+      {
+        "content": "More than 8 is recommended for your particular topic: You have selected around 8 sources but it seems like you may have needed to do more research. To find more credible sources:\n1) Use multiple research websites like: Google Scholar, Scinapse, Semantic Scholar, Connected Papers.\n2) Search for synonyms and use keywords. To automate this you could try using Countwordsfree.com.\n3) Use CRAAP: https://libguides.cmich.edu/web_research/craap#:~:textCRAAP%20stands%20for%20Currency%2C%20Relevance,Authority%2C%20Accuracy%2C%20and%20Purpose.",
+        "label": "Limited research",
+        "excerpt": "More than 8 is recommended for your particular topic: You have selected..."
+      }
+    ]
+  }
+}
